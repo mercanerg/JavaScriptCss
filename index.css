@@ -1,0 +1,22 @@
+:root {
+    --favcolor: #1e90ff;
+}
+
+body {
+    background-color: azure;
+}
+
+#contcolor {
+    background-color: var(--favcolor);
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 30%;
+    position: relative;
+    margin-bottom: 20px;
+    border-style: inset;
+    border-color: coral;
+    border-width: 7px;
+}
